@@ -1,6 +1,2 @@
-def lambda_handler(event, context):
-    return {
-        'statusCode': 200,
-        'body': 'Hello from Lambda Containers',
-        'event': event
-    }
+boto3>=1.16.19
+requests>=2.25.0
